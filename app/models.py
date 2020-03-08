@@ -20,7 +20,7 @@ class Subscriber(models.Model):
 		return self.email or ''
 
 	def welcome_subcriber(self):
-		message = f'Dear {self.get_full_name()} welcome to Adashe !'
+		message = f'Dear {self.get_full_name()} welcome to S-PAY !'
 		send_message(message=message, recipients=[self.phone,])
 
 	def save(self, *args, **kwargs):
