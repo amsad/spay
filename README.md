@@ -1,1 +1,1 @@
-#Simple Payment Platform
+# Simple Payment Platform - S-pay
